@@ -9,6 +9,5 @@ jobs:
       - run: echo "Install dependencies"
       - uses: actions/setup-node@v2
       - run: npm ci
-      - run: npm install
       - run: echo "Running production build"
       - run: npm run prod
